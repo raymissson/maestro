@@ -1,0 +1,72 @@
+.logo{
+	width: 200px;
+}
+
+
+.form-control-custom,.form-control-custom:focus,.form-control-custom:active{
+	border:none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+
+.border{
+	border:1px solid black;
+	border-radius: 5px;
+}
+
+hr{
+	border-style: dashed ;
+}
+
+
+.sh{
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+.btn-color-0{
+	
+}
+
+th{
+	font-weight: bold;
+	color: white;
+}
+
+thead{
+	background:linear-gradient(90deg, #2193b0 0%,#6dd5ed 100% );
+}
+
+
+
+.link{
+	text-decoration: none !important;
+	color:white !important;
+	font-weight: bold;
+}
+
+.card-custom{
+	background-color: #2196f3;
+}
+
+.card-custom:hover{
+	opacity: 0.8;
+}
+
+
+.search-bar{
+	border-radius: 5px;
+	height: 70px;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+.btn-custom{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.alerta{
+	font-size: 14px;
+	border-radius: 5px;
+}
