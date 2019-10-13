@@ -65,12 +65,12 @@
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
           ['Concluídos',     11],
-          ['Andamento',      2],
-          ['Parados',  2],
+          ['Atrasado',      2],
+          ['Andamento',  2],
         ]);
 
         var options = {
-          title: 'Meus dados atuais',
+          title: 'Status setup',
           is3D: true,
         };
 
