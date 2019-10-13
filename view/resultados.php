@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../content/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
 
     <body>
         <nav class="navbar navbar-dark navbar-custom sh">
@@ -51,32 +52,32 @@
                 <h5>Histórico de Setup</h5>
                 <hr>
                 <div class="container-fluid">
-                    <div class="card">
-                        <div class="card-header text-center">
-                            <div class="text-right">
-                                <span class="dot-1"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="form-check py-2">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Departamento envolvido: XXX
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Setup em execução: XXX
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
                 </div>
         </div>
 
     </body>
-    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Concluídos',     11],
+          ['Andamento',      2],
+          ['Parados',  2],
+        ]);
+
+        var options = {
+          title: 'Meus dados atuais',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
     <script type="text/javascript" src="../content/js/app/collapse.js"></script>
     <script type="text/javascript" src="../content/js/app/functions.js"></script>
     <script type="text/javascript" src="../content/js/app/validation.js"></script>
