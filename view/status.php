@@ -44,32 +44,34 @@
                 </div>
             </div>
             <div id="main">
-                <br>
                 <hr>
-                <h5>Atividades</h5>
+                <h5>Status geral do Setup</h5>
                 <hr>
                 <div class="container-fluid">
                     <div class="card">
                         <div class="card-header text-center">
-                            Em andamento
+                            <div class="text-right">
+                                <span class="dot-1"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            </div>
                         </div>
                         <div class="card-body">
                             <div class="form-check py-2">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    Checar setup
+                                    Departamento envolvido: XXX
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    Levar insumos para próximo da máquina
+                                    Setup em execução: XXX
                                 </label>
                             </div>
                         </div>
                     </div>
                 </div>
         </div>
+
     </body>
     
     <script type="text/javascript" src="../content/js/app/collapse.js"></script>

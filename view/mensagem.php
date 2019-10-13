@@ -46,30 +46,61 @@
             <div id="main">
                 <br>
                 <hr>
-                <h5>Atividades</h5>
+                <div class="w3-teal">
                 <hr>
-                <div class="container-fluid">
+                <h5>Mensagens</h5>
+                <hr>
+                <div class="w3-container">
                     <div class="card">
-                        <div class="card-header text-center">
-                            Em andamento
+                        <div class="card-header">
+                            Raymison Maklouf
+
                         </div>
+
                         <div class="card-body">
-                            <div class="form-check py-2">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Checar setup
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Levar insumos para próximo da máquina
-                                </label>
-                            </div>
+
+                            <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
+                            <h6 class="text-right">Agora</h6>
                         </div>
                     </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-header">
+                            Leticia Hakcton
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Defeito na máquina 14</h5>
+                            <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
+                            <h6 class="text-right">Há 7 minutos</h6>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-header">
+                            Leticia Hakcton
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Defeito na máquina 14</h5>
+                            <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
+                            <h6 class="text-right">Há 7 minutos</h6>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example" class="py-2">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Próxima</a></li>
+                        </ul>
+                    </nav>
                 </div>
+                </div>
+                <br>
+            </div>
+
         </div>
+
     </body>
     
     <script type="text/javascript" src="../content/js/app/collapse.js"></script>
