@@ -23,7 +23,13 @@
         <div class="container mx-auto d-flex justify-content-center cont-format">
 
             <div id="mySidebar" class="container p-1 sidebar text-center">
-
+                <div class="text-center sidenav-3 mx-2">
+                    <img src="../content/img/user.png" class="py-3">
+                    <h4 class="text-white side-op py-1">Patrick.Miranda</h4>
+                    <h4 class="text-white side-op-config py-1">Configurações</h4>
+                </div>
+                <hr class="hr">
+                
                 <div class="text-center sidenav-2 mx-2">
                     <button class="dropdown-btn mx-auto text-center"> Funcionários<img src="../content/img/arrow.png" class="imgA" id="imgA"></button>
                     <div class="dropdown-container">
@@ -68,10 +74,36 @@
                 </div>
                 <hr class="hr">
                 <div class="text-center sidenav-3">
-                    <h5 class="text-white text-bold">Sair</h5>
+                    <h6 class="text-white">Sair</h6>
                 </div>
             </div>
             <div id="main">
+                 <hr>
+                <h5>Status geral do Setup</h5>
+                <hr>
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <div class="text-right">
+                                <span class="dot-1"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-check py-2">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Departamento envolvido: XXX
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Setup em execução: XXX
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="w3-teal">
                 </div>
                 <br>
@@ -104,14 +136,22 @@
                     </div>
                 </div>
                 <br>
-                <hr>
-                <h5>Atividades</h5>
-                <hr>
+                <nav aria-label="Page navigation example" class="py-2">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Próxima</a></li>
+                        </ul>
+                    </nav>
 
             </div>
 
+        <?php
+            require_once('gerarOcorrencia.php');
+        ?>
         </div>
-
     </body>
 
     <script type="text/javascript" src="../content/js/app/collapse.js"></script>

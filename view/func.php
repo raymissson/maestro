@@ -62,6 +62,33 @@
                     </div>
                 </div>
                 <br>
+                           <br>
+                <hr>
+                <h5>Status geral do Setup</h5>
+                <hr>
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <div class="text-right">
+                                <span class="dot-1"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-check py-2">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Departamento envolvido: XXX
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Setup em execução: XXX
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="w3-teal">
                 <hr>
                 <h5>Mensagens</h5>
@@ -118,7 +145,7 @@
         </div>
 
     </body>
-
+    
     <script type="text/javascript" src="../content/js/app/collapse.js"></script>
     <script type="text/javascript" src="../content/js/app/functions.js"></script>
     <script type="text/javascript" src="../content/js/app/validation.js"></script>

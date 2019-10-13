@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
 
@@ -14,9 +14,10 @@
   <body>
     <div class="container-fluid py-5">
           <div class="d-flex justify-content-center">
-                <form action="model/access.php">
+              <!--   <form action="model/access.php"> -->
+                <form action="">
                     <div class="form-group">
-                        <img src="content/img/maestro.png" alt="..." class="img-thumbnail">
+<!--                         <img src="content/img/maestro.png" alt="..." class="img-thumbnail"> -->
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Usuario</label>
@@ -27,7 +28,8 @@
                       <input type="password" class="form-control" id="senha" placeholder="Senha">
                     </div>
                     <div class="form-group">
-                      <button class="btn btn-custom">Entrar</button>
+                      <!-- <button class="btn btn-custom">Entrar</button> -->
+                      <a href="view/func.php" class="btn btn-custom">Entrar</a>
                     </div>
                   </form>
           </div>
@@ -39,4 +41,4 @@
     <script src="js/funcoes.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   </body>
-</html> -->
+</html>
