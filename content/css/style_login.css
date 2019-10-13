@@ -1,0 +1,39 @@
+.btn-custom{
+	width: 150px;
+	border-radius: 5px;
+	margin-top: 20px;
+	color:white;
+	font-weight: bold;
+	background-color: #28a073;
+}
+.btn-custom:hover{
+	
+	color:white;
+	margin-top: 20px;
+}
+
+.login{
+	border-radius: 10px;
+	width: 650px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+	background:linear-gradient(90deg, #fdfbfb 0%,#ebedee 100% );
+	margin-top: 8px;
+	background-repeat: repeat-x !important;
+}
+
+.form-input{
+	border-radius: 5px;
+	border-color:white;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.bg-login{
+ 	background:linear-gradient(90deg, #1d976c 0%,#93f9b9 125% );
+	margin-top: 150px;
+}
+
+
+h5{
+	color:#434343;
+	font-weight: bold;
+}
