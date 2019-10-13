@@ -1,77 +1,76 @@
 <!DOCTYPE html>
-    <html>
+<html>
 
-    <head>
-        <title>Painel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="content/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="content/css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript" src="content/js/dropSelect.js"></script>
+<head>
+    <title>Painel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="content/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="content/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="content/js/dropSelect.js"></script>
 
-        <body>
-            <nav class="navbar navbar-dark navbar-custom">
+    <body>
+        <nav class="navbar navbar-dark navbar-custom">
 
-                <button class="openbtn btn-custom text-span" id="side"><img src="content/img/side.png" id="image"> Menu</button>
-
-                <div class="dropdown" id="drop-left">
-                    <!-- <button class="btn dropdown-toggle btn-custom" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="openbtn btn-custom text-span" id="side"><img src="content/img/side.png" id="image"></button>
+            <h4 class="text-white text-nome text-center">Maestro</h4>
+            <div class="dropdown" id="drop-left">
+                <!-- <button class="btn dropdown-toggle btn-custom" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <?php #echo "Olá, ".$_SESSION['user']; ?>
                     </button> -->
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="nav-item nav-link link" href="controller/logout.php">Sair</a>
-                    </div>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="nav-item nav-link link" href="controller/logout.php">Sair</a>
                 </div>
-            </nav>
-            <div class="container mx-auto d-flex justify-content-center cont-format">
+            </div>
+        </nav>
+        <div class="container mx-auto d-flex justify-content-center cont-format">
 
-                <div id="mySidebar" class="container p-1 sidebar">
-                    <!-- <div class="sidenav-2">
+            <div id="mySidebar" class="container p-1 sidebar">
+                <!-- <div class="sidenav-2">
                         <button class="dropdown-btn mx-auto text-center"><img src="../content/img/dep.png"> Home<img src="../content/img/arrow.png" class="imgA" id="imgA"></button>
                     </div> -->
-                    <!-- <hr class="hr"> -->
-                    <!-- <center><img src="../content/img/logo-samel.png" class="img py-1"></center> -->
-                    <center><h4 class="text-bold text-white">Maestro Smed</h4></center>
-                     <hr class="hr">
-                    <div class="text-center sidenav-3">
-                        <button class="dropdown-btn mx-auto text-center"><img src="content/img/dep.png"> Departamentos<img src="content/img/arrow.png" class="imgA" id="imgA">
+                <!-- <hr class="hr"> -->
+                <!-- <center><img src="../content/img/logo-samel.png" class="img py-1"></center> -->
+                <!--                     <center><h4 class="text-bold text-white">Maestro Smed</h4></center> -->
+                <div class="text-center sidenav-3">
+                    <button class="dropdown-btn mx-auto text-center"><img src="content/img/dep.png"> Departamentos<img src="content/img/arrow.png" class="imgA" id="imgA">
+                    </button>
+
+                    <div class="dropdown-container">
+                        <a href="" data-toggle="modal" data-target="#modal3">
+                            <div class="bg-btn">
+                                <label><img src="content/img/edit_dep.png"> Cadastrar</label>
+                            </div>
+                        </a>
+                        <button class="openbtn" id="actionDep">
+                            <div class="bg-btn" id="client">
+                                <label><img src="content/img/list.png"> Lista</label>
+                            </div>
                         </button>
-
-                        <div class="dropdown-container">
-                            <a href="" data-toggle="modal" data-target="#modal3">
-                                <div class="bg-btn">
-                                    <label><img src="content/img/edit_dep.png"> Cadastrar</label>
-                                </div>
-                            </a>
-                            <button class="openbtn" id="actionDep">
-                                <div class="bg-btn" id="client">
-                                    <label><img src="content/img/list.png"> Lista</label>
-                                </div>
-                            </button>
-                        </div>
                     </div>
+                </div>
 
-                    <div class="text-center sidenav-2">
-                        <button class="dropdown-btn mx-auto text-center"><img src="content/img/user.png"> Funcionários<img src="content/img/arrow.png" class="imgA" id="imgA"></button>
-                        <div class="dropdown-container">
+                <div class="text-center sidenav-2">
+                    <button class="dropdown-btn mx-auto text-center"><img src="content/img/user.png"> Funcionários<img src="content/img/arrow.png" class="imgA" id="imgA"></button>
+                    <div class="dropdown-container">
 
-                            <a href="" data-toggle="modal" data-target="#modal1">
-                                <div class="bg-btn text-center">
-                                    <label><img src="content/img/user_register.png"> Cadastrar</label>
-                                </div>
-                            </a>
-                            <button class="openbtn" id="action">
-                                <div class="bg-btn text-center" id="client">
-                                    <label><img src="content/img/list.png"> Lista</label>
-                                </div>
-                            </button>
-                        </div>
+                        <a href="" data-toggle="modal" data-target="#modal1">
+                            <div class="bg-btn text-center">
+                                <label><img src="content/img/user_register.png"> Cadastrar</label>
+                            </div>
+                        </a>
+                        <button class="openbtn" id="action">
+                            <div class="bg-btn text-center" id="client">
+                                <label><img src="content/img/list.png"> Lista</label>
+                            </div>
+                        </button>
                     </div>
-                    <!--<div class="text-center sidenav-3">
+                </div>
+                <!--<div class="text-center sidenav-3">
                          <button class="dropdown-btn mx-auto text-center"><img src="../content/img/tools.png"> Equipamentos<img src="../content/img/arrow.png" class="imgA" id="imgA"> </button>
                         <div class="dropdown-container">
                             <a href="" data-toggle="modal" data-target="#modal2">
@@ -87,10 +86,10 @@
                         </div>
 
                     </div>-->
-                    <hr class="hr">
-                     <div class="text-center sidenav-3">
-                        <h5 class="text-white text-bold">Sair</h5>
-                       <!--<button class="dropdown-btn mx-auto text-center"><img src="../content/img/oc.png">Ocorrências<img src="../content/img/arrow.png" class="imgA" id="imgA"></button>
+                <hr class="hr">
+                <div class="text-center sidenav-3">
+                    <h5 class="text-white text-bold">Sair</h5>
+                    <!--<button class="dropdown-btn mx-auto text-center"><img src="../content/img/oc.png">Ocorrências<img src="../content/img/arrow.png" class="imgA" id="imgA"></button>
                         <div class="dropdown-container">
 
                             <a href="" data-toggle="modal" data-target="#modal1">
@@ -104,51 +103,57 @@
                                 </div>
                             </button>
                         </div>-->
-                    </div> 
                 </div>
-                <div id="main">
-                    <div class="w3-teal">
-                <!-- <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button> -->
-               <!--  <div class="w3-container">
+            </div>
+            <div id="main">
+                <div class="w3-teal">
+                    <!-- <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button> -->
+                    <!--  <div class="w3-container">
                   <h1>Mensagens</h1>
                 </div> -->
-              </div>
-              <br>
-              <div class="w3-container">
+                </div>
+                <br>
+                <hr>
+                <h5>Mensagens</h5>
+                <hr>
+                <div class="w3-container">
                     <div class="card">
-                            <div class="card-header">
-                              Raymison Maklouf
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Defeito na máquina 14</h5>
-                              <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
-                            </div>
+                        <div class="card-header">
+                            Raymison Maklouf
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Defeito na máquina 14</h5>
+                            <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
+                        </div>
                     </div>
                     <br>
                     <div class="card">
-                            <div class="card-header">
-                              Leticia Hakcton
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Defeito na máquina 14</h5>
-                              <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
-                            </div>
+                        <div class="card-header">
+                            Leticia Hakcton
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Defeito na máquina 14</h5>
+                            <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
+                        </div>
                     </div>
-              </div>
-              
-
                 </div>
+                <br>
+                <hr>
+                <h5>Atividades</h5>
+                <hr>
 
             </div>
-        
-        </body>
 
-        <script type="text/javascript" src="content/js/app/collapse.js"></script>
-        <script type="text/javascript" src="content/js/app/functions.js"></script>
-        <script type="text/javascript" src="content/js/app/validation.js"></script>
-        <script type="text/javascript" src="content/js/app/drop-menu.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script type="text/javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        </div>
 
-    </html>
+    </body>
+
+    <script type="text/javascript" src="content/js/app/collapse.js"></script>
+    <script type="text/javascript" src="content/js/app/functions.js"></script>
+    <script type="text/javascript" src="content/js/app/validation.js"></script>
+    <script type="text/javascript" src="content/js/app/drop-menu.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
