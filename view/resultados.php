@@ -48,7 +48,7 @@
             </div>
             <div id="main">
                 <hr>
-                <h5>Status geral do Setup</h5>
+                <h5>Histórico de Setup</h5>
                 <hr>
                 <div class="container-fluid">
                     <div class="card">

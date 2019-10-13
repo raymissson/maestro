@@ -37,6 +37,9 @@
                     <a href="mensagem.php">
                         <h4 class="text-white side-op-config py-1">Mensagens</h4>
                     </a>
+                    <a href="resultados.php">
+                        <h4 class="text-white side-op-config py-1">Resultados</h4>
+                    </a>
                 </div>
                 <hr class="hr">
                 <div class="text-center sidenav-3">
