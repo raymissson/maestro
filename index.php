@@ -19,7 +19,7 @@
             <div class="d-flex justify-content-center">
                 
                 <div class="login">
-                    <h5 class="text-center font-maestro">Maestro</h5>
+                    <h5 class="text-center font-maestro">Maestro smed</h5>
                     <form method="POST" action="view/func.php" class="py-2">
                     <div class="form-group">
                         <input type="text" name="user" class="form-control form-input" placeholder="Usuário">

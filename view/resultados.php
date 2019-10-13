@@ -15,7 +15,7 @@
         <nav class="navbar navbar-dark navbar-custom sh">
 
             <button class="openbtn btn-custom text-span" id="side"><img src="../content/img/side.png" id="image"></button>
-            <h4 class="text-white text-nome text-center font-maestro">Maestro</h4>
+            <h4 class="text-white text-nome text-center font-maestro">Maestro smed</h4>
             <div class="dropdown" id="drop-left">
                 <div class="dropdown" id="drop-right">
                     <button class="btn dropdown-toggle btn-custom" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,18 +34,18 @@
 
                 <div class="text-center sidenav-3 mx-2">
                     <img src="../content/img/user.png" class="py-3">
-                    <h4 class="text-white side-op py-1">raymison.ramos</h4>
+                    <h4 class="text-white side-op py-1 sidebarLink">Patrick.miranda</h4>
                     <a href="func.php">
-                        <h4 class="text-white side-op-config py-1" >Atividades</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink">Atividades</h4>
                     </a>
                     <a href="status.php">
-                        <h4 class="text-white side-op-config py-1" >Status Setup</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink">Status Setup</h4>
                     </a>
                     <a href="mensagem.php">
-                        <h4 class="text-white side-op-config py-1">Mensagens</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink">Mensagens</h4>
                     </a>
                     <a href="resultados.php">
-                        <h4 class="text-white side-op-config py-1">Resultados</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink">Resultados</h4>
                     </a>
                 </div>
                 <hr class="hr">
