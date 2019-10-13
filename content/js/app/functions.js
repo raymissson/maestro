@@ -1,4 +1,4 @@
-$('#table-func').hide();
+/*$('#table-func').hide();
 $('#table-dep').hide();
 $('#table-equip').hide();
 $('#nvalue').show();
@@ -42,3 +42,4 @@ $(document).on('click','#actionOc', function(){
 	$('#content-format-1').hide();
 	$('#content-format-2').hide();
 });
+*/

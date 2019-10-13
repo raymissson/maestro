@@ -3,6 +3,13 @@ body{
 }
 
 
+.font-maestro{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 25px;
+    font-stretch: 10px;
+
+}
+
 .text-nome{
   font-weight: bold !important;
   padding: 0;
@@ -46,7 +53,7 @@ button:visited{
 }
 
 .bg-btn{
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 
@@ -101,6 +108,15 @@ button:visited{
     height:680px;
 }
 
+
+.side-op{
+  font-size: 17px;
+}
+
+.side-op-config{
+  font-size: 14px;
+}
+
 .hr1{
   margin-left: 15px;
   background-color: white;
@@ -113,12 +129,13 @@ button:visited{
 .sidebar {
   height: 100%;
   width:0;
-  position: fixed;
+  position: absolute;
   z-index: 1;
+  /*top:53px;*/
   top:0;
   left: -30px;
-  background: #673AB7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: #512da7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #512DA8, #673AB6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   overflow-x: hidden;
   /*transition: 0.4s;*/
@@ -210,8 +227,8 @@ div.content {
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
   /*background:linear-gradient(90deg, #1d976c 0%,#93f9b9 150% );*/
   background: #673AB7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -233,7 +250,7 @@ background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, F
   padding:19px;
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  color: white !important;
   border: none;
   background: none;
   margin:0;
@@ -251,7 +268,7 @@ background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, F
   margin-left:auto;
     margin-right:auto;
    
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   background: none;
   cursor: pointer;
@@ -275,6 +292,7 @@ background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, F
 }
 
 .sidenav-3{
+  color: white !important;
   margin-right: 5px;
 }
 .dropdown-container {

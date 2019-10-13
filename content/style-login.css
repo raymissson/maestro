@@ -1,0 +1,47 @@
+.index {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    width: 300px;
+    height: 500px;
+    background: #fff;
+}
+
+
+body {
+    margin: 0px;
+}
+
+.logo{
+	width: 200px;
+}
+
+
+.form-control-custom,.form-control-custom:focus,.form-control-custom:active{
+	border:none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+
+
+hr{
+	border-style: dashed ;
+}
+
+
+.sh{
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+
+.btn-login{
+	background-color:;
+}
+
