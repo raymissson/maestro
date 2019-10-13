@@ -16,8 +16,14 @@
             <button class="openbtn btn-custom text-span" id="side"><img src="../content/img/side.png" id="image"></button>
             <h4 class="text-white text-nome text-center font-maestro">Maestro</h4>
             <div class="dropdown" id="drop-left">
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="nav-item nav-link link" href="../controller/logout.php">Sair</a>
+                <div class="dropdown" id="drop-right">
+                    <button class="btn dropdown-toggle btn-custom" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Perfil
+                    </button> 
+                    <div class="dropdown-menu drop-left" aria-labelledby="dropdownMenuButton">
+                         <a class="nav-item nav-link link" href="">Configurações</a>
+                        <a class="nav-item nav-link link" href="../index.php">Sair</a>
+                    </div>
                 </div>
             </div>
         </nav>

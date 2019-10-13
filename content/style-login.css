@@ -12,6 +12,27 @@
     background: #fff;
 }
 
+.login{
+    border-radius: 10px;
+    width: 650px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    background:linear-gradient(90deg, #fdfbfb 0%,#ebedee 100% );
+    margin-top:100px;
+    background-repeat: repeat-x !important;
+}
+
+.btn-custom{
+    background-color: #673AB7;
+    font-weight: bold;
+    color: white;
+}
+
+.font-maestro{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 25px;
+    font-stretch: 10px;
+
+}
 
 body {
     margin: 0px;
