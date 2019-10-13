@@ -17,6 +17,10 @@ body{
   padding: 0;
 }
 
+.sidebarLink{
+  font-size: 18px;
+  font-weight:bolder;
+}
 
 a{
   text-decoration: none;
@@ -328,7 +332,7 @@ div.content {
   margin-left: 10px;
 }
 
-.dot,.dot-1{
+.dot,.dot-1,.dot-2,.dot-3{
   height: 25px;
   width: 25px;
   border-radius: 50%;
@@ -341,4 +345,12 @@ div.content {
 }
 .dot-1{
   background-color: green ;
+}
+
+.dot-2{
+  background-color: yellow ;
+}
+
+.dot-3{
+  background-color: red ;
 }

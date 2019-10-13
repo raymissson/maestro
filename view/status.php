@@ -18,10 +18,10 @@
             <div class="dropdown" id="drop-left">
                 <div class="dropdown" id="drop-right">
                     <button class="btn dropdown-toggle btn-custom" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Perfil
-                    </button> 
+                        Perfil
+                    </button>
                     <div class="dropdown-menu drop-left" aria-labelledby="dropdownMenuButton">
-                         <a class="nav-item nav-link link" href="">Configurações</a>
+                        <a class="nav-item nav-link link" href="">Configurações</a>
                         <a class="nav-item nav-link link" href="../index.php">Sair</a>
                     </div>
                 </div>
@@ -35,10 +35,10 @@
                     <img src="../content/img/user.png" class="py-3">
                     <h4 class="text-white side-op py-1">raymison.ramos</h4>
                     <a href="func.php">
-                        <h4 class="text-white side-op-config py-1" >Atividades</h4>
+                        <h4 class="text-white side-op-config py-1">Atividades</h4>
                     </a>
                     <a href="status.php">
-                        <h4 class="text-white side-op-config py-1" >Status Setup</h4>
+                        <h4 class="text-white side-op-config py-1">Status Setup</h4>
                     </a>
                     <a href="mensagem.php">
                         <h4 class="text-white side-op-config py-1">Mensagens</h4>
@@ -56,33 +56,87 @@
                 <hr>
                 <h5>Status geral do Setup</h5>
                 <hr>
-                <div class="container-fluid">
-                    <div class="card">
-                        <div class="card-header text-center">
-                            <div class="text-right">
-                                <span class="dot-1"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
+                <div class="row">
+                    <div class="col py-1">
+                        <div class="container-fluid">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    <div class="text-right">
+                                        <span class="dot-1"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-check py-2">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Departamento envolvido: XXX
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Setup em execução: XXX
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-body">
-                            <div class="form-check py-2">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Departamento envolvido: XXX
-                                </label>
+                    </div>
+                    <div class="col py-1">
+                        <div class="container-fluid">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    <div class="text-right">
+                                        <span class="dot"></span>
+                                        <span class="dot-2"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-check py-2">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Departamento envolvido: XXX
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Setup em execução: XXX
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Setup em execução: XXX
-                                </label>
+                        </div>
+                    </div>
+                    <div class="col py-1">
+                        <div class="container-fluid">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    <div class="text-right">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot-3"></span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-check py-2">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Departamento envolvido: XXX
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Setup em execução: XXX
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
 
     </body>
-    
+
     <script type="text/javascript" src="../content/js/app/collapse.js"></script>
     <script type="text/javascript" src="../content/js/app/functions.js"></script>
     <script type="text/javascript" src="../content/js/app/validation.js"></script>

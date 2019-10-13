@@ -31,18 +31,18 @@
 
                 <div class="text-center sidenav-3 mx-2">
                     <img src="../content/img/user.png" class="py-3">
-                    <h4 class="text-white side-op py-1">raymison.ramos</h4>
+                    <h4 class="text-white side-op py-1 sidebarLink">Raymison.ramos</h4>
                     <a href="func.php">
-                        <h4 class="text-white side-op-config py-1" >Atividades</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink" >Atividades</h4>
                     </a>
                     <a href="status.php">
-                        <h4 class="text-white side-op-config py-1" >Status Setup</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink" >Status Setup</h4>
                     </a>
                     <a href="mensagem.php">
-                        <h4 class="text-white side-op-config py-1">Mensagens</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink">Mensagens</h4>
                     </a>
                     <a href="resultados.php">
-                        <h4 class="text-white side-op-config py-1">Resultados</h4>
+                        <h4 class="text-white side-op-config py-1 sidebarLink">Resultados</h4>
                     </a>
                 </div>
                 <hr class="hr">
@@ -58,19 +58,25 @@
                 <div class="container-fluid">
                     <div class="card">
                         <div class="card-header text-center">
-                            Em andamento
+                            <span style="font-style: italic;">Em andamento</span>
                         </div>
                         <div class="card-body">
-                            <div class="form-check py-2">
+                            <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    Checar setup
+                                    Checar máquina
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
                                     Levar insumos para próximo da máquina
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Resolver problemas relacionados X
                                 </label>
                             </div>
                         </div>

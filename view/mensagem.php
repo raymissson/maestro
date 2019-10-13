@@ -62,8 +62,7 @@
                 <div class="w3-container">
                     <div class="card">
                         <div class="card-header">
-                            Raymison Maklouf
-
+                            <span style="font-style: italic;">Raymison Maklouf</span>
                         </div>
 
                         <div class="card-body">
@@ -75,7 +74,7 @@
                     <br>
                     <div class="card">
                         <div class="card-header">
-                            Leticia Hakcton
+                            <span style="font-style: italic;">Leticia Hakcton</span>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Defeito na máquina 14</h5>
@@ -86,10 +85,10 @@
                     <br>
                     <div class="card">
                         <div class="card-header">
-                            Leticia Hakcton
+                            <span style="font-style: italic;">Patrick Miranda</span>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Defeito na máquina 14</h5>
+                            <h5 class="card-title">Defeito na máquina 16s</h5>
                             <p class="card-text">Ela precisa trocar o molde tamanho 10 para retornar ao estado inicial.</p>
                             <h6 class="text-right">Há 7 minutos</h6>
                         </div>
